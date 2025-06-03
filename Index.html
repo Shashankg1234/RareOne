@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RareOne - One-of-a-Kind Drops</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f6f6f6;
+            color: #333;
+        }
+        header {
+            background: #000;
+            color: #fff;
+            padding: 20px 40px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        .hero {
+            background: #e3e3e3;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+            color: #555;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+        .product-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product-card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .product-card h3 {
+            margin-top: 15px;
+        }
+        .sold-out {
+            color: red;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RareOne</h1>
+        <p>Own the only one</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#drops">Drops</a>
+        <a href="#collab">Collaborate</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h1>One Product. One Owner. One Moment.</h1>
+        <p>We sell exclusive, single-unit products made in collaboration with brilliant creators. Once it’s sold, it’s gone forever.</p>
+    </section>
+    <section class="products" id="drops">
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300" alt="Exclusive Product">
+            <h3>Handcrafted Leather Journal</h3>
+            <p class="sold-out">Sold Out</p>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/300" alt="Exclusive Product">
+            <h3>Rare Resin Art Piece</h3>
+            <p class="sold-out">Sold Out</p>
+        </div>
+    </section>
+    <section class="hero" id="collab">
+        <h1>Want to Collaborate?</h1>
+        <p>Are you a creator or brand with something rare to offer? Partner with us to feature your one-of-a-kind product.</p>
+        <p>Email us at <strong>collab@rareone.com</strong></p>
+    </section>
+    <footer id="contact">
+        <p>RareOne &copy; 2025 | Built for rarity lovers</p>
+    </footer>
+</body>
+</html>
